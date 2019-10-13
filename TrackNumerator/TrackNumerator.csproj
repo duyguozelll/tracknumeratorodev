@@ -79,8 +79,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Gorseller\green-round-button-26746.jpg" />
+    <Content Include="Gorseller\kırmızı.jpg" />
     <Content Include="Properties\green-round-button-26746.jpg" />
     <Content Include="Properties\kırmızı.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

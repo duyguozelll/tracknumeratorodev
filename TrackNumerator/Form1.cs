@@ -50,12 +50,11 @@ namespace TrackNumerator
                     label.Height = 10;
                     label.Location = new Point(picture.Location.X, picture.Location.Y - 10);
                     panel1.Controls.Add(label);
-                    picture.ImageLocation = AppDomain.CurrentDomain.BaseDirectory + "\\green-round-button-26746.jpg";
+                    picture.ImageLocation = Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory())) + @"\Gorseller\green-round-button-26746.jpg";
                 }
                 else
                 {
-                    picture.ImageLocation = AppDomain.CurrentDomain.BaseDirectory + "\\kırmızı.jpg";
-
+                    picture.ImageLocation = Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory())) + @"\Gorseller\kırmızı.jpg";
                 }
                 panel1.Controls.Add(picture);
 
